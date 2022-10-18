@@ -81,3 +81,42 @@ background-size: cover;*/
 .additional-area {
     padding: 0 130px;
 }
+
+.about-photo {
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgb(137, 156, 150);
+    box-shadow: 5px 10px 18px rgb(137, 156, 150);
+}
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.about {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tab-btn {
+    padding: 1rem 0;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    letter-spacing: 0.25rem;
+}
+.about-content {
+    padding: 2rem 1.5rem;
+}
+/* hide content */
+.content {
+    display: none;
+}
+.tab-btn.active {
+    background: rgb(137, 156, 150);
+}
+.content.active {
+    display: block;
+}
