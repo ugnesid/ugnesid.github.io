@@ -1,5 +1,5 @@
 const btns = document.querySelectorAll(".tab-btn");
-const about = document.querySelectorAll("#theAboutIdHere");
+const about = document.querySelector(".about");
 const articles = document.querySelectorAll(".content");
 
 about.addEventListener("click" , function (e) {
