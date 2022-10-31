@@ -3,7 +3,8 @@ const nextBtn = document.querySelector(".nextBtn");
 const prevBtn = document.querySelector(".prevBtn");
 
 slides.forEach(function (slide, index) {
-    slide.getElementsByClassName.left = "${index * 100}%";
+    const left = index * 100
+    slide.style.left = `${left}%`;
 });
 
 let counter = 0;
@@ -30,7 +31,8 @@ if(counter > 0) {
 }
 
 slides.forEach(function (slide) {
-       slide.style.transform = `translateX(-${counter * 100}%)`;
+    console.log("counter", counter)
+    slide.style.transform = `translateX(-${counter * 100}%)`;
 })
 }
 prevBtn.style.display = "none";

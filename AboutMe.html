@@ -1,83 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://kit.fontawesome.com/82474dbdff.js" crossorigin="anonymous"></script>
     <title>About Me</title>
 </head>
+
 <body class="main-background">
-<div class="about-area fontstyle">
-    <div class="center between-lines"> 
-        <h1>Tourist of the world</h1>
-        <p>the world is as big as you make it</p>
-    </div>
-    <nav class="main-nav nav-link">
-        <ul>
-            <li><a aria-current="page" href="./MainPage.html">Home</a></li>
-            <li><a href="./Destinations.html">Destinations</a></li>
-            <li><a href="./TravelTips.html">Travel Tips</a></li>
-            <li><a href="./AboutMe.html">About Me</a></li>
-        </ul>
-    </nav>
-    <h4>My name is Ugne and I love to be a tourist.</h4>
-<section>
-<div class="section-center">
-    <div class="slider-container">
-        <div class="slide">
-            <img class="about-photo slide-img" src="/Users/ugnearmonaite/Desktop/WebSite_v2/grand2.jpg"/>
+    <div class="about-area fontstyle">
+        <div class="center between-lines">
+            <h1>Tourist of the world</h1>
+            <p>the world is as big as you make it</p>
         </div>
-        <div class="slide">
-            <img class="about-photo slide-img" src="/Users/ugnearmonaite/Desktop/WebSite_v2/family2.jpg"/>
-        </div>
-        <div class="slide">
-            <img class="about-photo slide-img" src="/Users/ugnearmonaite/Desktop/WebSite_v2/Cali1.jpg"/>
-        </div>
-        <div class="slide">
-            <img class="about-photo slide-img" src="/Users/ugnearmonaite/Desktop/WebSite_v2/snowb.jpg"/>
+        <nav class="main-nav nav-link">
+            <ul>
+                <li><a aria-current="page" href="./MainPage.html">Home</a></li>
+                <!--<li><a href="./Destinations.html">Destinations</a></li>-->
+                <li><a href="./TravelTips.html">Travel Tips</a></li>
+                <li><a href="./AboutMe.html">About Me</a></li>
+            </ul>
+        </nav>
+        <h4>My name is Ugne and I love to be a tourist.</h4>
+        <section>
+            <div class="section-center">
+                <div class="slider-container">
+                    <div class="slide">
+                        <img class="about-photo slide-img" src="./photos/grand2.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img class="about-photo slide-img" src="./photos/family2.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img class="about-photo slide-img" src="./photos/Cali1.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img class="about-photo slide-img" src="./photos/snowb.jpg" />
+                    </div>
+                </div>
+                <article class="about">
+                    <div class="btn-container">
+                        <button class="tab-btn active" data-id="Interests">Interests</button>
+                        <button class="tab-btn" data-id="Life">Life</button>
+                        <button class="tab-btn" data-id="Career">Career</button>
+                    </div>
+                    <article class="content-container">
+                        <div class="content active" id="Interests">
+                            <h4>Interests</h4>
+                            <p>My biggest, oldest and longest passion is traveling. I should thank my parents for
+                                providing me with the opportunity to travel at an early age and to fall in love with it.
+                                I have two lifetime goals related to traveling. First, I would have traveled to as many
+                                countries as how old I am (now I am almost on the edge - I am 32 years old and I have
+                                been in 32 countries.) Second one is to see all the new 7 wonders of the world through
+                                life (3 left at this point).
+                                My newest interest is programming. I still can’t believe that it embraced me so
+                                strongly. I wish to dive into the developing world, but I try not to sink at this point
+                                in my life. What a wide world exists behind the screens of our smart devices!!
+                                I built this page to learn and practice all that cool things like HTML, CSS and
+                                JavaScrip.
+                                My survival passion - coffee! I love to go to cafes to have coffee and to observe the
+                                surroundings or to learn to program.
+                            </p>
+                        </div>
+                        <div class="content" id="Life">
+                            <h4>Life</h4>
+                            <p>I am Lithuanian and I have lived in Utah since 2021. Before that, I lived all my life in
+                                Lithuania. Greece, Denmark and the US are countries in which I lived for around 3 months
+                                each during my studies.
+                                I became a wife for my beloved husband in July of 2020 and after one year I gave birth
+                                to our beautiful daughter who changed our understanding of traveling.
+                            </p>
+                        </div>
+                        <div class="content" id="Career">
+                            <h4>Career</h4>
+                            <p>I have a bachelor and master degrees in Public Health Management, but have never worked
+                                in my education area. I am a Human Resources specialist. Currently, I’m working at an
+                                information technology company as a Human Resource Manager. We are developing
+                                unbreakable wired and wireless connectivity products. Most specifically, I am
+                                responsible for having employees in the company and that they and the company would be
+                                fully satisfied with their work. My daily work life is dynamic, kind of stressful and
+                                interesting, because I work and meet so many amazingly smart people.
+                                Please contact me on Linkedin.
+                            </p>
+                        </div>
+                    </article>
+                </article>
+                <div class="button-container">
+                    <button class="prevBtn" type="button">prev</button>
+                    <button class="nextBtn" type="button">next</button>
+                </div>
+            </div>
+        </section>
+        <h3>Contacts</h3>
+        <div>
+            <a href="https://www.linkedin.com/in/ugne-armonaite/"><i
+                    class="fa-brands fa-linkedin fa-2xl social"></i></a>
+            <a href="https://github.com/ugnesid/ugnesid.github.io"><i
+                    class="fa-brands fa-square-github fa-2xl social"></i></a>
+            <a href="https://www.facebook.com/ugne.armonaite"><i
+                    class="fa-brands fa-square-facebook fa-2xl social"></i></a>
         </div>
     </div>
-        <article class="about">
-    <div class="btn-container">
-        <button class="tab-btn active" data-id="Interests">Interests</button>
-        <button class="tab-btn" data-id="Life">Life</button>
-        <button class="tab-btn" data-id="Career">Career</button>
-    </div>
-<article class="content-container">
-    <div class="content active" id="Interests">
-        <h4>Interests</h4>
-        <p>My biggest, oldest and longest passion is traveling. I should thank my parents for providing me with the opportunity to travel at an early age and to fall in love with it. 
-            I have two lifetime goals related to traveling. First, I would have traveled to as many countries as how old I am (now I am almost on the edge - I am 32 years old and I have been in 32 countries.) Second one is to see all the new 7 wonders of the world through life (3 left at this point).
-            My newest interest is programming. I still can’t believe that it embraced me so strongly. I wish to dive into the developing world, but I try not to sink at this point in my life. What a wide world exists behind the screens of our smart devices!! 
-            I built this page to learn and practice all that cool things like HTML, CSS and JavaScrip.
-            My survival passion - coffee! I love to go to cafes to have coffee and to observe the surroundings or to learn to program. 
-            </p>
-    </div>
-        <div class="content" id="Life">
-            <h4>Life</h4>
-            <p>I am Lithuanian and I have lived in Utah since 2021. Before that, I lived all my life in Lithuania. Greece, Denmark and the US are countries in which I lived for around 3 months each during my studies. 
-            I became a wife for my beloved husband in July of 2020 and after one year I gave birth to our beautiful daughter who changed our understanding of traveling. 
-            </p>
-        </div>
-    <div class="content" id="Career">
-        <h4>Career</h4>
-        <p>I have a bachelor and master degrees in Public Health Management, but have never worked in my education area. I am a Human Resources specialist. Currently, I’m working at an information technology company as a Human Resource Manager. We are developing unbreakable wired and wireless connectivity products. Most specifically, I am responsible for having employees in the company and  that they and the company would be fully satisfied with their work. My daily work life is dynamic, kind of stressful and interesting, because I work and meet so many amazingly smart people. 
-        Please contact me on Linkedin. 
-        </p>
-    </div>
-</article>
-</article>
-<div class="button-container">
-    <button class="prevBtn" type="button">prev</button>
-    <button class="nextBtn" type="button">next</button>
-</div>
-</div>
-</section>
-<h3>Contacts</h3>
-<script src="/Users/ugnearmonaite/Desktop/WebSite_v2/page.js"></script>
-<script src="/Users/ugnearmonaite/Desktop/WebSite_v2/aboutphoto.js"></script>
-</div>
+    <script src="/Users/ugnearmonaite/Desktop/WebSite_v2/page.js"></script>
+    <script src="/Users/ugnearmonaite/Desktop/WebSite_v2/aboutphoto.js"></script>
 </body>
+
 </html>
