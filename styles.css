@@ -45,15 +45,10 @@ background-size: cover;*/
     padding: 0 20px;
     margin: 0px 90px;  
 }
-
 .main-nav {
     display: flex;
     justify-content: space-evenly;
-    /*align-content: space-between;
-    padding: 5px;
-    margin: 0 10px;*/
 }
-
 .main-nav li {
     display: inline-block;
     padding: 3px 10px;
@@ -66,31 +61,51 @@ background-size: cover;*/
     letter-spacing: 1px;
     border-radius: 1px;
 }
+.additional-area {
+    padding: 0 130px;
+}
 
 .imgflight {
-    float: left;
-    max-width: 40%;
-    height: 40%;
+    width: 30%;
+    height: auto;
     margin-right: 25px;
     border: 1px solid rgb(137, 156, 150);
     box-shadow: 5px 10px 18px rgb(137, 156, 150);
 }
+.flightgrid {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000;
+}
 .imgcar {
-    float: right;
     max-width: 40%;
     height: 40%;
     margin-left: 25px;
     border: 1px solid rgb(137, 156, 150);
     box-shadow: 5px 10px 18px rgb(137, 156, 150);
 }
-.text-p {
+.contentp1 {
     text-align: left;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.additional-area {
-    padding: 0 130px;
+.contentp2 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hide {
+    display: none;
+}
+.btntips {
+    padding: 10px;
+    background-color: rgb(137, 156, 150);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
 }
 
 .about-photo {
@@ -196,7 +211,7 @@ background-size: cover;*/
     grid-template-rows: repeat(28, 5vw);
     column-gap: 1.5em;
     row-gap: 1.5em;
-    max-width: 1050px;
+    max-width: 1150px;
 }
 .desti-container {
     width: 100%;
@@ -305,4 +320,83 @@ background-size: cover;*/
 }*/
 .comming-soon {
     color:rgb(137, 156, 150)
+}
+
+/* Media, mobile size: 320px-480px */
+@media screen and (max-width: 480px) {
+    .main-area {
+        background-color: rgb(244, 246, 245);
+        text-align: center;
+        padding: 0 10px;
+        margin: 0px 30px;
+    }
+
+    .destinations {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .desti-container {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        position: relative;
+        text-align: center;
+        margin-block-start: 0;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+    .main-photos {
+        max-width: 100%;
+        height: auto;
+    }
+    .main-nav {
+        display: block;
+    }
+    .main-nav li {
+        display: block;
+        float: left;
+        padding: 0 0 12px 0;
+        margin: 0;
+        font-size: 1rem;
+        color: rgb(137, 156, 150);
+    }
+    #navbar {
+        display: block;
+        padding: 0;
+        margin: 0 -12px;
+        background-color: rgb(102, 71, 69);
+        position: fixed;
+        top: -50px;
+        width: auto;
+        transition: top 0.3s;
+    }
+    #navbar a {
+        float: left;
+        display: block;
+        color: rgb(137, 156, 150);
+        text-align: center;
+        padding: 0 15px;
+        font-size: 15px;
+    }
+    #navbar a:hover {
+        background-color: rgb(125, 110, 109);
+        color: black;
+    }
+    /* About Me page*/
+    .about-area {
+        background-color: rgb(244, 246, 245);
+        text-align: center;
+        padding: 0 10px;
+        margin: 0px 30px;  
+    }
+
+    .section-center {
+        display: block;
+        width: 100%
+        height: 500px;
+        margin: auto;
+        max-width: 1000px;
+    }
 }
